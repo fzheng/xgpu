@@ -53,6 +53,8 @@ sudo nohup ./xengpuminer -d6 > xengpuminer-6.log 2>&1 &
 sleep 1
 sudo nohup ./xengpuminer -d7 > xengpuminer-7.log 2>&1 &
 
+mkdir /root/XENGPUMiner
+
 echo "-------------------------"
 echo "    MINING  XENBLOCKS    "
 echo "     https://xen.pub     "

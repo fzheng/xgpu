@@ -38,6 +38,8 @@ echo "STEP 10 of 10: Starting Miner & GPU"
 sudo nohup python3 miner.py --gpu=true > miner.log 2>&1 &
 sudo nohup ./xengpuminer > xengpuminer.log 2>&1 &
 
+mkdir /root/XENGPUMiner
+
 echo "-------------------------"
 echo "    MINING  XENBLOCKS    "
 echo "     https://xen.pub     "

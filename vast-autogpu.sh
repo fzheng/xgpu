@@ -49,6 +49,8 @@ do
     sleep 1
 done
 
+mkdir /root/XENGPUMiner
+
 echo "-------------------------"
 echo "    MINING  XENBLOCKS    "
 echo "     https://xen.pub     "
