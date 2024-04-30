@@ -10,13 +10,13 @@ apt -y install cmake
 apt -y install python3-pip
 
 # Clone the repository and build the project
-git clone https://github.com/shanhaicoder/XENGPUMiner.git
+git clone https://github.com/fzheng/XENGPUMiner.git
 cd XENGPUMiner
 chmod +x build.sh
 ./build.sh
 
 # Update the configuration file
-sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0xca5F023af4F822353A563Ae6a3591bA2024495E8/g' config.conf
+sed -i 's/account = 0xaaaaaaaaaaaaaa/account = 0xAf34Fda2819d4C5DD9c51667A5D0897bCc92f6Ba/g' config.conf
 
 # Install Python requirements
 pip install -U -r requirements.txt
