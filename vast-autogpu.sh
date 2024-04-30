@@ -49,7 +49,8 @@ do
     sleep 1
 done
 
-mkdir /root/XENGPUMiner
+mkdir -p /root/XENGPUMiner
+touch /root/XENGPUMiner/miner.log
 
 echo "-------------------------"
 echo "    MINING  XENBLOCKS    "

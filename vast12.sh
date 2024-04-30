@@ -61,7 +61,8 @@ sudo nohup ./xengpuminer -d10 > xengpuminer-10.log 2>&1 &
 sleep 1
 sudo nohup ./xengpuminer -d11 > xengpuminer-11.log 2>&1 &
 
-mkdir /root/XENGPUMiner
+mkdir -p /root/XENGPUMiner
+touch /root/XENGPUMiner/miner.log
 
 echo "-------------------------"
 echo "    MINING  XENBLOCKS    "
